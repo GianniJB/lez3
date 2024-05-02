@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 1.1em;
+}
+
 header {
     text-align: center;
 }
@@ -14,9 +22,19 @@ header {
 
 h3 a {
     text-decoration: none;
+    color: black;
 }
 
 main {
-    width: 70%;
+    width: 50%;
     margin: auto;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+img + h4 {
+    color: #00000066;
+    text-align: center ;
 }
