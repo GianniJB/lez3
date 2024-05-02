@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notepage {
+    background-color: #aec4ffb3;
+}
+
+li {
+    border-bottom: dashed 0.5px;
+}
+
+h2 {
+    outline: dashed;
+    outline-color: #9d9ea1;
+    border-radius: 1.5px;
+}
