@@ -2,25 +2,27 @@ body {
     margin: 0;
 }
 
-html {
-    font-size: 1.1em;
-}
-
 header {
     text-align: center;
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 #main_logo {
     width: 30%;
 }
 
-#main_div {
+#header_div {
     border-top: solid 3px #ffd877;
     background-color:#ffe80033;
     padding: 1%;
 }
 
-h3 a {
+#header_div a {
     text-decoration: none;
     color: black;
 }
@@ -37,4 +39,14 @@ main > h1 {
 img + h4 {
     color: #00000066;
     text-align: center ;
+}
+
+#feat_div {
+    border-left: solid 3px orange;
+    padding-left: 1.5em;
+}
+
+#feat_div h3 {
+    color: orangered;
+    margin: 0;
 }
