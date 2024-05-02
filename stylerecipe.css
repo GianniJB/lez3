@@ -1,19 +1,22 @@
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
-.notepage {
-    background-color: #aec4ffb3;
+#main_logo {
+    width: 30%;
 }
 
-li {
-    border-bottom: dashed 0.5px;
+#main_div {
+    border-top: solid 3px #ffd877;
+    background-color:#ffe80033;
+    padding: 1%;
 }
 
-h2 {
-    outline: dashed;
-    outline-color: #9d9ea1;
-    border-radius: 1.5px;
+h3 a {
+    text-decoration: none;
+}
+
+main {
+    width: 70%;
+    margin: auto;
 }
